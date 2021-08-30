@@ -67,6 +67,7 @@
 }
 
 #portfolio-projects h3{
+    text-align:center;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
@@ -104,6 +105,9 @@
 
     #portfolio-projects h1{
         font-size: 3rem;
+        text-align: center;
+    }
+    #portfolio-projects .info .buttons{
         text-align: center;
     }
     #portfolio-projects p{

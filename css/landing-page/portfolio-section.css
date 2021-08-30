@@ -31,7 +31,9 @@
 #portfolio-section .portfolio-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    /* add back to original when you add more projects
+    150px 150px */
     grid-gap: 10px;
 }
 
@@ -96,7 +98,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image1 .image{
-    background: url("https://cdn.dribbble.com/users/45617/screenshots/15804412/media/90bfa70fc8d8be66f16854704c5627a4.png");
+    background: url("https://i.ibb.co/QNv2tjG/screenshot.png");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -110,7 +112,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image2 .image{
-    background: url("https://cdn.dribbble.com/users/45617/screenshots/15804412/media/90bfa70fc8d8be66f16854704c5627a4.png");
+    background: url("https://i.ibb.co/P45dZ1N/escape-screenshot.png");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -124,7 +126,7 @@
 }
 
 #portfolio-section .portfolio-container .box.image3 .image{
-    background: url("https://cdn.dribbble.com/users/45617/screenshots/15804412/media/90bfa70fc8d8be66f16854704c5627a4.png");
+    background: url("https://i.ibb.co/jbpMVKV/amazon-screenshot.png");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -134,11 +136,13 @@
 
 #portfolio-section .portfolio-container .box.image4{
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
+    /* original put back when you have more projects
+    grid-row: 2 / 3; */
 }
 
 #portfolio-section .portfolio-container .box.image4 .image{
-    background: url("https://cdn.dribbble.com/users/45617/screenshots/15804412/media/90bfa70fc8d8be66f16854704c5627a4.png");
+    background: url("https://i.ibb.co/hXkz4YS/kayak-screenshot.png");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -201,8 +205,9 @@
     #portfolio-section .portfolio-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px
-        150px 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px;
+        /* add these back when you have more projects
+        150px 150px 150px 150px */
         grid-gap: 10px;
     }
     #portfolio-section .portfolio-container .box.image1{
@@ -221,6 +226,7 @@
         grid-column: 2 / 3;
         grid-row: 3 / 5;
     }
+    /* add back whenever youre done
     #portfolio-section .portfolio-container .box.image5{
         grid-column: 1 / 2;
         grid-row: 5 / 7;
@@ -232,16 +238,19 @@
     #portfolio-section .portfolio-container .box.image7{
         grid-column: 1 / 4;
         grid-row: 7 / 9;
-    }
+    } */
 }
 /* Phones */
 @media only screen and (max-width: 767px){
     #portfolio-section .portfolio-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 150px 150px 150px 150px 150px
-        150px 150px;
-        grid-gap: 10px;
+        grid-template-rows: 150px 150px 150px 150px;
+        /* add these back when you have more projects
+        150px 150px 150px */
+        grid-gap: 5px
+        /* original 
+        grid-gap: 10px; */
     }
     #portfolio-section .portfolio-container .box.image1{
         grid-column: 1 / 4;
